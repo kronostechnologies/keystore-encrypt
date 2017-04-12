@@ -21,6 +21,11 @@ class Adaptor implements EncryptionServiceInterface {
 		$this->encrypt = $encrypt;
 	}
 
+	/**
+	 * @param mixed $value
+	 * @return mixed
+	 * @throws EncryptionException
+	 */
 	public function encrypt($value) {
 		try {
 			return $this->encrypt->encrypt($value);
@@ -30,6 +35,11 @@ class Adaptor implements EncryptionServiceInterface {
 		}
 	}
 
+	/**
+	 * @param mixed $value
+	 * @return mixed
+	 * @throws EncryptionException
+	 */
 	public function decrypt($value) {
 		try {
 			return $this->encrypt->decrypt($value);
