@@ -9,7 +9,7 @@
 	verbose="true"
 >
 <testsuites>
-	<testsuite name="Kronos-Log">
+	<testsuite>
 		<directory>./tests/Encrypt/</directory>
 	</testsuite>
 </testsuites>

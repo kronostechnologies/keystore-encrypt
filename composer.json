@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Kronos\\Keystore\\Encrypt\\": "src/Encrypt/"
+            "Kronos\\Keystore\\Encryption\\Encrypt\\": "src/Encrypt/"
         }
     },
     "autoload-dev": {
