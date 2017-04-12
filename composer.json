@@ -1,0 +1,29 @@
+{
+    "name": "kronos/keystore-encrypt",
+    "description": "kronos/keystore EncryptionService implementation with kronos/encrypt",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kronos\\Keystore\\Encrypt\\": "src/Encrypt/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kronos\\Tests\\Keystore\\Encrypt\\": "tests/Encrypt/"
+        }
+    },
+    "require": {
+        "kronos/keystore": "^0.1.0",
+        "kronos/encrypt": "^0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Breton",
+            "email": "jbreton@kronostechnologies.com"
+        }
+    ]
+}
