@@ -3,10 +3,10 @@
 namespace Kronos\Keystore\Encryption\Encrypt;
 
 use Kronos\Encrypt\Encrypt;
-use Kronos\Keystore\EncryptionServiceInterface;
+use Kronos\Keystore\Encryption\ServiceInterface;
 use Kronos\Keystore\Exception\EncryptionException;
 
-class Adaptor implements EncryptionServiceInterface {
+class Adaptor implements ServiceInterface {
 
 	/**
 	 * @var Encrypt
