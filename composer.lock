@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "81d456401e4fdffe595c5ee5613e7e52",
+    "content-hash": "dbd745755e992631fa5ef79be4b922a9",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -266,7 +266,7 @@
         },
         {
             "name": "kronos/encrypt",
-            "version": "0.1.5",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kronostechnologies/encrypt.git",
