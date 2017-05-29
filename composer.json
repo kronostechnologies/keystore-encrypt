@@ -13,8 +13,8 @@
         }
     },
     "require": {
-        "kronos/keystore": "~0.2.0",
-        "kronos/encrypt": "~0.2.0"
+        "kronos/keystore": "^0.2.0",
+        "kronos/encrypt": "^0.2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
