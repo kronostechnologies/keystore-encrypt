@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbd745755e992631fa5ef79be4b922a9",
+    "content-hash": "8b1fb4935210d8b20cf8faa999581f3b",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.28.3",
+            "version": "3.28.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8c3c45f73abfa377f37599da49d053e5d2347059"
+                "reference": "a02d10b668ce905c627c6ce149e095b159538341"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8c3c45f73abfa377f37599da49d053e5d2347059",
-                "reference": "8c3c45f73abfa377f37599da49d053e5d2347059",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a02d10b668ce905c627c6ce149e095b159538341",
+                "reference": "a02d10b668ce905c627c6ce149e095b159538341",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-05-24T18:18:21+00:00"
+            "time": "2017-05-25T22:17:39+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -266,7 +266,7 @@
         },
         {
             "name": "kronos/encrypt",
-            "version": "0.2.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kronostechnologies/encrypt.git",
@@ -300,24 +300,24 @@
         },
         {
             "name": "kronos/keystore",
-            "version": "0.2.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kronostechnologies/keystore.git",
-                "reference": "188580f615c958770985fae55b0d9868f54cb0d5"
+                "reference": "cafa141c434646196221991209342a85dff3fbad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kronostechnologies/keystore/zipball/188580f615c958770985fae55b0d9868f54cb0d5",
-                "reference": "188580f615c958770985fae55b0d9868f54cb0d5",
+                "url": "https://api.github.com/repos/kronostechnologies/keystore/zipball/cafa141c434646196221991209342a85dff3fbad",
+                "reference": "cafa141c434646196221991209342a85dff3fbad",
                 "shasum": ""
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7"
             },
             "suggest": {
-                "kronos/keystore-dbal": "^0.1",
-                "kronos/keystore-encrypt": "^0.1"
+                "kronos/keystore-dbal": "^1.0.0",
+                "kronos/keystore-encrypt": "^1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -330,7 +330,7 @@
                 "MIT"
             ],
             "description": "Simple key/value storage librairy",
-            "time": "2017-05-25T14:30:44+00:00"
+            "time": "2017-05-29T20:05:03+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -1741,16 +1741,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.8",
+            "version": "v3.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "acec26fcf7f3031e094e910b94b002fa53d4e4d6"
+                "reference": "4cdb9fec28fba88203a71f6d095018867f7a2065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/acec26fcf7f3031e094e910b94b002fa53d4e4d6",
-                "reference": "acec26fcf7f3031e094e910b94b002fa53d4e4d6",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/4cdb9fec28fba88203a71f6d095018867f7a2065",
+                "reference": "4cdb9fec28fba88203a71f6d095018867f7a2065",
                 "shasum": ""
             },
             "require": {
@@ -1792,7 +1792,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-01T14:55:58+00:00"
+            "time": "2017-05-25T23:42:36+00:00"
         },
         {
             "name": "webmozart/assert",
